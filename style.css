@@ -2,8 +2,7 @@ body {
 	background-color: #d7cedd;
 	text-align: left;
 	color: rgb(10,10,10);
-	font-family: Lora: serif;
-	font-size: lighter;
+	font-family: Arial;
 	font-size: 15px;
 	line-height: 1.8;
 	letter-spacing: 1px;
@@ -13,7 +12,6 @@ body {
 .sidebar {
   position: fixed;
   width: 150px;
-  bottom: 10;
   margin-top:250px;
   margin-left:10px
 }
@@ -28,6 +26,9 @@ body {
 	min-height: 100vh;
 	max-width: 800px; 
 	margin: 0 auto;
+}
+.sidebar a {
+	color: #9f7866;
 }
 
 h1{
@@ -46,13 +47,9 @@ a  {
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
-a: hover {
+a:hover {
 	color: yellow;
 	text-decoration: none;
-}
-
-#links{
-	color: rgb(10,10,10);
 }
 
 .container {
@@ -66,22 +63,20 @@ a: hover {
 	z-index: auto;
 }
 
-   
-
-
+  
 .card-red{
 	background-color: #edeaef;
 	padding: 40px;
 	border: 3px solid lightgrey;
-	border-radius: 20px
+	border-radius: 3%;
 	box-shadow: 0px 10px 30px rgba(0,0,0,.1);
 	margin: 20px 0px ;
 	text-align: center;
 }
 
 .img-circle{
-	width: 50px;
-	height:50px;
+	width: 150px;
+	height:150px;
 	border-radius: 50% 50%;
 	object-fit: cover;
 }
@@ -93,27 +88,26 @@ a: hover {
 .list-inline li {
 	display: inline;
 	padding: 0px 20px;
+	font-size: 40px;
 }
 .line-inline i {
 	font-size: 50px;
 	color: rgb(230,230,230);
-
-.line-inline i:hover {
 	color: rgb(200,200,200);
 }
 
-#ea p{
-	margin-bottom: 40px;
-}
 
 @media (max-width: 960px) {
 	.container {
     width: 700px;
+}
 
 @media (max-width: 720px) {
 	.container {
     width: 500px;
+}
 
 @media (max-width: 540px) {
 	.container {
     width: 300px;
+}
